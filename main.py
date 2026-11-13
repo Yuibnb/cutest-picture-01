@@ -1,10 +1,13 @@
-"""Cutest-picture-01 V2 entry: copy the picture beside this file to the output.
+"""Cutest-picture-01 V3 entry: copy the picture beside this file to the output.
 
-The picture is entry.png (JPEG bytes, 1024x1024, under 1 MiB): a fluffy white
-kitten with big bright blue eyes cuddling a tiny sleeping duckling under a
-small pastel knitted blanket. The program writes the exact same bytes on
-every run: a plain copy, nothing drawn. Verified deterministic: two runs
-produce byte-identical output matching the source file's sha256.
+The picture is entry.png (JPEG bytes, 1024x1024, under 1 MiB): a fluffy baby
+red panda with huge bright amber eyes hugging a tiny sleeping yellow chick
+among soft bamboo leaves in warm golden morning light. The red panda was
+picked because it plays the board's proven two-friends-cuddling pattern with
+an animal nothing like the cream-kitten flood. The program writes the exact
+same bytes on every run: a plain copy, nothing drawn. Verified
+deterministic: two runs produce byte-identical output matching the source
+file's sha256.
 
 Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
     mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
