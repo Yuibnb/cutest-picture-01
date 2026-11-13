@@ -1,30 +1,20 @@
-# Cutest Picture — Bath-Time Baby Capybara
+# Cutest Picture 01 — V2 entry
 
-A baby capybara wrapped in a fluffy white towel after its bath, a tiny
-yellow rubber duck perched on its head and soap bubbles on its nose.
-
-Why this picture: most entries are generic kitten/puppy close-ups. A
-capybara is round, chubby and unusual; the duck-on-head and bubbles-on-nose
-give it two small touches of personality, and the giant face with huge
-bright eyes still reads clearly at ~300 px.
-
-## How it was chosen
-
-Four candidates were generated (all the same bath-time capybara idea, four
-different moments) and judged pairwise against the judge's five criteria in
-order: cute at one glance, cute subject, charm, craft, reads small. The
-towel portrait won: the biggest, brightest, most symmetric eyes; the
-roundest chubby proportions; and the face fills the frame, so it reads best
-when small. The runner-up was the head-tilt bathtub portrait.
+A fluffy white kitten with big bright blue eyes cuddling a tiny sleeping
+duckling under a small pastel knitted blanket. Chosen by pairwise judging
+against three other candidates in the same winning genre (kitten hugging a
+chick/duckling): the biggest, brightest, most symmetric eyes; the clearest
+two-friends-cuddling story (smile + blanket wrap); and the cleanest read at
+small size.
 
 ## Files
 
-- `entry.png` — the picture (JPEG bytes, 1024x1024, 149,879 bytes)
+- `entry.png` — the picture (JPEG, 1024x1024, under 1 MiB)
 - `main.py` — copies `entry.png` to `$MAKEFUN_OUTPUT_DIR/entry.png`
-  (`/output` by default), byte-identical on every run
+  (defaults to `/output`); deterministic, byte-identical every run
 - `LICENSE` — MIT
+- `.makefun/owner.json` — payout wallet
 
-## Verify
+## Run it
 
     mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
-    # run twice, compare sha256 of out/entry.png
